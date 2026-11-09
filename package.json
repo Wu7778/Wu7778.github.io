@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@vercel/blob": "^2.8.2"
+  },
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node --test server.test.cjs cloud.test.cjs"
+  }
+}

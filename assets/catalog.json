@@ -1,0 +1,70 @@
+[
+  {
+    "id": "a061248e-7bd1-4807-baa0-e3a851aa7e90",
+    "name": "「差旅无忧」速干超薄无钢圈",
+    "category": "无钢圈内衣",
+    "price": null,
+    "sizes": "请咨询门店",
+    "colors": "以门店实物为准",
+    "year": null,
+    "season": "待确认",
+    "description": "歌瑞森品牌款式参考。图片及款名来自品牌公开产品页面，实际在售颜色、尺码与价格请咨询东台德润店。",
+    "featured": true,
+    "flashSale": false,
+    "images": [
+      "/assets/product-473-2.jpg",
+      "/assets/product-473-3.jpg"
+    ]
+  },
+  {
+    "id": "239ec427-daea-4f90-9568-768bfb1d2591",
+    "name": "「大露背」免穿内衣吊带背心",
+    "category": "吊带背心",
+    "price": null,
+    "sizes": "请咨询门店",
+    "colors": "以门店实物为准",
+    "year": null,
+    "season": "待确认",
+    "description": "歌瑞森品牌款式参考。图片及款名来自品牌公开产品页面，实际在售颜色、尺码与价格请咨询东台德润店。",
+    "featured": true,
+    "flashSale": false,
+    "images": [
+      "/assets/product-224-2.jpg",
+      "/assets/product-224-3.jpg"
+    ]
+  },
+  {
+    "id": "a40f3337-470f-423a-a75b-75ce082dbed6",
+    "name": "「秘密」温柔锁脂 全面调整内衣",
+    "category": "调整型内衣",
+    "price": null,
+    "sizes": "请咨询门店",
+    "colors": "以门店实物为准",
+    "year": null,
+    "season": "待确认",
+    "description": "歌瑞森品牌款式参考。图片及款名来自品牌公开产品页面，实际在售颜色、尺码与价格请咨询东台德润店。当前用于秒杀专区的版式展示，不代表正在开展秒杀活动。",
+    "featured": false,
+    "flashSale": true,
+    "images": [
+      "/assets/product-250-2.jpg",
+      "/assets/product-250-3.jpg"
+    ]
+  },
+  {
+    "id": "fa33141a-797d-4d84-bc83-c252b6555cbc",
+    "name": "「云朵」超软聚拢调整型内衣",
+    "category": "调整型内衣",
+    "price": null,
+    "sizes": "请咨询门店",
+    "colors": "以门店实物为准",
+    "year": null,
+    "season": "待确认",
+    "description": "歌瑞森品牌款式参考。图片及款名来自品牌公开产品页面，实际在售颜色、尺码与价格请咨询东台德润店。当前用于秒杀专区的版式展示，不代表正在开展秒杀活动。",
+    "featured": false,
+    "flashSale": true,
+    "images": [
+      "/assets/product-420-2.jpg",
+      "/assets/product-420-3.jpg"
+    ]
+  }
+]

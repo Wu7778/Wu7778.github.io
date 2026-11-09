@@ -1,0 +1,11 @@
+data
+.env*
+node_modules
+.git
+*.test.cjs
+share-server.cjs
+start.cjs
+启动店铺.cmd
+README.md
+public
+scripts

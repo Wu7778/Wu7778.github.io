@@ -1,0 +1,62 @@
+[
+  {
+    "images": [
+      {
+        "url": "https://www.gbra.cn/upload/2021-12/164024410047951800.jpg",
+        "file": "assets/product-473-2.jpg"
+      },
+      {
+        "url": "https://www.gbra.cn/upload/2021-12/164024411861906600.jpg",
+        "file": "assets/product-473-3.jpg"
+      }
+    ],
+    "source": "https://www.gbra.cn/pdisplay.php?id=473",
+    "name": "「差旅无忧」速干超薄无钢圈",
+    "id": 473
+  },
+  {
+    "images": [
+      {
+        "url": "https://www.gbra.cn/upload/2021-12/163851850788876100.jpg",
+        "file": "assets/product-224-2.jpg"
+      },
+      {
+        "url": "https://www.gbra.cn/upload/2021-12/163851851907421100.jpg",
+        "file": "assets/product-224-3.jpg"
+      }
+    ],
+    "source": "https://www.gbra.cn/pdisplay.php?id=224",
+    "name": "「大露背」免穿内衣吊带背心",
+    "id": 224
+  },
+  {
+    "images": [
+      {
+        "url": "https://www.gbra.cn/upload/2021-12/163852173235104300.jpg",
+        "file": "assets/product-250-2.jpg"
+      },
+      {
+        "url": "https://www.gbra.cn/upload/2021-12/163852174285199100.jpg",
+        "file": "assets/product-250-3.jpg"
+      }
+    ],
+    "source": "https://www.gbra.cn/pdisplay.php?id=250",
+    "name": "「秘密」温柔锁脂 全面调整内衣",
+    "id": 250
+  },
+  {
+    "images": [
+      {
+        "url": "https://www.gbra.cn/upload/2021-12/163998585826901700.jpg",
+        "file": "assets/product-420-2.jpg"
+      },
+      {
+        "url": "https://www.gbra.cn/upload/2021-12/163998587025227900.jpg",
+        "file": "assets/product-420-3.jpg"
+      }
+    ],
+    "source": "https://www.gbra.cn/pdisplay.php?id=420",
+    "name": "「云朵」超软聚拢调整型内衣",
+    "id": 420
+  }
+]
