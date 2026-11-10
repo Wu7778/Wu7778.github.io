@@ -14,3 +14,41 @@ function art(p){const color=/^#[0-9a-f]{6}$/i.test(p.color)?p.color:'#a8b79b';le
  return `<svg viewBox="0 0 400 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(p.name)}款式示意插画"><defs><linearGradient id="cloth" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#ffffff" stop-opacity=".36"/><stop offset=".45" stop-color="${color}"/><stop offset="1" stop-color="${color}"/></linearGradient></defs><g stroke-linejoin="round">${shape}</g></svg>`.replaceAll('cloth', 'cloth-'+(artCount++));
 }
 
+// Contact details stay available while browsing, independently of the store API.
+(() => {
+ const panel = document.querySelector('#contact');
+ const toggle = document.querySelector('#contactToggle');
+ const close = document.querySelector('#contactClose');
+ const navLink = document.querySelector('header a[href="#contact"]');
+ let opener = toggle;
+ navLink.setAttribute('aria-controls', 'contact');
+ navLink.setAttribute('aria-expanded', 'true');
+ function setContactOpen(open) {
+  panel.hidden = !open;
+  toggle.setAttribute('aria-expanded', String(open));
+  navLink.setAttribute('aria-expanded', String(open));
+ }
+ function closeContact() {
+  setContactOpen(false);
+  opener.focus({preventScroll:true});
+ }
+ toggle.addEventListener('click', () => {
+  opener = toggle;
+  setContactOpen(panel.hidden);
+  if (!panel.hidden) close.focus({preventScroll:true});
+ });
+ navLink.addEventListener('click', event => {
+  event.preventDefault();
+  opener = navLink;
+  setContactOpen(true);
+  close.focus({preventScroll:true});
+ });
+ close.addEventListener('click', closeContact);
+ panel.addEventListener('keydown', event => {
+  if (event.key === 'Escape') {
+   event.preventDefault();
+   closeContact();
+  }
+ });
+})();
+
